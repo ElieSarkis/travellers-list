@@ -1,0 +1,18 @@
+<div class="travellers-list-container">
+  <h3>Displaying the whole list of travellers by user:</h3>
+
+  <ul *ngFor="let traveller of travellersData">
+    <li>
+      First name: {{traveller.first_name}}
+    </li>
+    <li>
+      Last name: {{traveller.last_name}}
+    </li>
+    <li>
+      Date of birth: {{traveller.birthday}}
+    </li>
+    <li>
+      Mail: {{traveller.mail}}
+    </li>
+  </ul>
+</div>
